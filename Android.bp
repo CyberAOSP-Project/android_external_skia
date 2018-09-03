@@ -908,6 +908,8 @@ cc_library_static {
     defaults: ["skia_deps",
                "skia_pgo",
     ],
+
+    quicksilver: true,
 }
 
 // Build libskia with PGO by default.
